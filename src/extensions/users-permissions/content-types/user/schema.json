@@ -71,12 +71,6 @@
     },
     "last_name": {
       "type": "string"
-    },
-    "listing": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::listing.listing",
-      "mappedBy": "users_permissions_user"
     }
   }
 }

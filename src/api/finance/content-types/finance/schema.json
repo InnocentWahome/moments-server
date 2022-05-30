@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "finances",
+  "info": {
+    "singularName": "finance",
+    "pluralName": "finances",
+    "displayName": "finance"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "total_spent": {
+      "type": "biginteger"
+    }
+  }
+}
