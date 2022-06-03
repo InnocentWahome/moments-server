@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notepads",
+  "info": {
+    "singularName": "notepad",
+    "pluralName": "notepads",
+    "displayName": "notepad",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

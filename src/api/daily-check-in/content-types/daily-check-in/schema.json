@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "daily_check_ins",
+  "info": {
+    "singularName": "daily-check-in",
+    "pluralName": "daily-check-ins",
+    "displayName": "daily-check-in"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "mood": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mood.mood"
+    }
+  }
+}
